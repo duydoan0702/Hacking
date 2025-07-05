@@ -9,7 +9,8 @@
 ```bash
 2. sudo airmon-ng start wlan0
 ```
-airmon-ng : bật tắt chế độ monitor và dừng tiến trình gây xung đột
+→ airmon-ng : bật tắt chế độ monitor và dừng tiến trình gây xung đột.
+
 → Bật chế độ monitor cho card mạng.
 
 ```bash
