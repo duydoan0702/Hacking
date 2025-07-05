@@ -16,15 +16,17 @@
 ```bash
 3. sudo airmon-ng check kill
 ```
-
 → Dừng các dịch vụ gây xung đột.
 
 ```bash
 4. sudo airodump-ng wlan0mon
 ```
-
+*công dụng airodump-ng*
+  - quét và giám sát các mạng wifi xung quanh
+  - thu thập được : SSID ( tên mạng ), BSSID ( địa chỉ MAC ), kênh ( channel ), mã hóa (WEP/WPA/WPA2), số lượng client kết nối.
+  - Bắt handshake (quá trình xác thực giữa thiết bị và router) dùng để dò mật khẩu.
 → Quét và thu thập thông tin mạng Wi-Fi.
-**Ctrl + C** để thoát.
+    **Ctrl + C** để thoát.
 
 ```bash
 5. sudo airodump-ng --bssid <bssid> --channel <ch> --write wpa2hack wlan0mon
