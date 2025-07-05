@@ -26,6 +26,7 @@
   - thu thập được : SSID ( tên mạng ), BSSID ( địa chỉ MAC ), kênh ( channel ), mã hóa (WEP/WPA/WPA2), số lượng client kết nối.
   - Bắt handshake (quá trình xác thực giữa thiết bị và router) dùng để dò mật khẩu.
 → Quét và thu thập thông tin mạng Wi-Fi.
+
     **Ctrl + C** để thoát.
 
 ```bash
